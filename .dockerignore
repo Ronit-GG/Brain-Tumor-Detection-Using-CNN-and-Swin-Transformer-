@@ -1,0 +1,32 @@
+# Keep the Docker context small (and the image lean).
+
+# Virtual env (we install fresh in the image)
+.venv/
+venv/
+*.egg-info/
+
+# Caches / logs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+logs/
+outputs/
+
+# Notebooks + raw datasets (not needed at runtime)
+notebooks/
+data/processed/
+DATASET/
+
+# Editor / OS junk
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentation files that aren't needed at runtime
+*.md
+!README.md

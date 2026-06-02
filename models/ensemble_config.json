@@ -1,0 +1,20 @@
+{
+  "method": "weighted",
+  "model_names": [
+    "cnn",
+    "transfer",
+    "swin"
+  ],
+  "weights": [
+    0.0,
+    0.8999999761581421,
+    0.10000000149011612
+  ],
+  "metrics": {
+    "val_acc": 0.9892857142857143,
+    "soft_voting": 0.975,
+    "weighted": 0.9892857142857143,
+    "stacking_cv": 0.9857142857142858
+  },
+  "notes": "Trained and tuned on the 1120-image stratified val split (STEP 3 split)."
+}

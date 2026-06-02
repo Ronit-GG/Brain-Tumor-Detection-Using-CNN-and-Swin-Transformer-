@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Project artifacts ---
+logs/
+outputs/
+models/*.pth
+models/*.onnx
+data/processed/
+*.ipynb_checkpoints/
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+
+# --- Dataset (keep folder, exclude from VCS due to size) ---
+DATASET/
